@@ -1,3 +1,8 @@
 .container {
-    margin: 20px;
+    margin: 20px auto;
+}
+
+#devourSection {
+    margin: 20px auto;
+    padding: 20px auto;
 }
