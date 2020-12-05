@@ -1,0 +1,10 @@
+/////////////////////////////////////////////////////
+//                      VARIABLES                  //
+/////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////
+//                   Functions                     //
+/////////////////////////////////////////////////////
+
+// on submit what user types in textbox shows dynamically on the left list along with a button in the middle col //
+// on click of the devour button the listed item displays on right column (btn) disappears
