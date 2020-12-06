@@ -1,77 +1,37 @@
 <!DOCTYPE html>
-
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./assets/css/style.css" type="text/css" />
+    <title>Eat-Da-Burger!</title>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="./assets/js/index.js"></script>
+  </head>
+  <body>
+    <h1>Eat-Da-Burger!</h1>
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <meta name="Description" content="Enter your description here"/>
+    <h2>Burgers that are not devoured!</h2>
 
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
-        <link rel="stylesheet" href="assets/css/style.css">
+    <ul id="notDevouredBurgers"></ul>
 
-        <title>Eat-Da-Burger!</title>
-    </head>
+    <h2>Burgers that are devoured!</h2>
 
-    <body>
-        <div class="container" style="text-align: center;">
-            <div class="row">
-                <img src="https://via.placeholder.com/150" alt="placeholder for burger img">
-            </div>
-            <div class="row">
-                <h1>Eat-Da-Burger!</h1>
-            </div>
-            <section id="devourSection" style="display: block;">
-                <div class="row">
-                    <div class="col-sm-2"></div>
-                    <div class="col-sm-3">
-                        <div class="card">
-                                <ul class="list-group list-group-flush" id="toDevour">
-                                    <li class="list-group-item">test</li>
-                                    <li class="list-group-item">test</li>
-                                </ul>
-                        </div>
-                    </div>
-                    <div class="col-sm-2">
-                        <button class="btn" type="btn" id="burgerDevourBtn">Devour It!</button>
-                    </div>
-                    <div class="col-sm-3">
-                        <div class="card">
-                                <ul class="list-group list-group-flush" id="toDevour">
-                                    <li class="list-group-item">test</li>
-                                    <li class="list-group-item">test</li>
-                                </ul>
-                        </div>
-                    </div>
-                    <div class="col-sm-2"></div>
-                </div>
-            </section>
-            <div class="row">
-                <textarea id="burgerEntered"></textarea>
-            </div>
-            <div class="row">
-                <button class="btn" type="btn" id="burgerSubmitBtn">Submit</button>
-            </div>
-            <div class="row">
-                <p>Enter a burger you want to eat. Then click the "submit" button.</p>
-            </div>
-        </div>
+    <ul id="devouredBurgers"></ul>
 
+    <h2>Add a Burger</h2>
+    <form class="create-form">
+      <div class="form-group">
+        <label for="ca">Burger Name:</label>
+        <input type="text" id="ca" name="name" />
+      </div>
 
+      <div class="form-group">
+        <label for="devoured">Devoured?</label><br />
+        <input type="radio" name="devoured" value="1" checked /> Devoured!<br />
+        <input type="radio" name="devoured" value="0" /> Not Devoured
+      </div>
 
-
-
-
-
-
-
-
-        <footer>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        </footer>
-    </body>
-
+      <button type="submit">Add Burger</button>
+    </form>
+  </body>
 </html>
