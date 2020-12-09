@@ -12,7 +12,8 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 // import routes & give the server access //
-var routes = require("./controllers/burgers_controller.js");
+var routes = require("./controllers/burgersController.js");
+
 app.use(routes);
 
 // start server //
