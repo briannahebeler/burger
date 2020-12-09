@@ -27,6 +27,6 @@ If you have any additional questions about this application you can reach out to
 You can check out some of my other projects at briannahebeler (https://github.com/briannahebeler).
 
 ## Links
-* Deployed Application: 
+* Deployed Application: https://burger-briheb.herokuapp.com/
 
 * GitHub Repo: https://github.com/briannahebeler/burger
