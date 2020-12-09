@@ -7,6 +7,6 @@ use burgers_db;
 drop table burgers;
 create table burgers (
     id int auto_increment not null primary key,
-    burger_name varchar(150) not null,
+    name varchar(150) not null,
     devoured boolean default false
 );
