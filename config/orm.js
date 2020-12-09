@@ -12,16 +12,20 @@ function objToSql(ob) {
     var arr = [];
     for (var key in ob) {
         var value = ob[key];
+        // check to skip hidden properties //
         if (Object.hasOwnProperty.call(ob, key)) {
+            // if string with spaces, add quotations //
             if (typeof value === "string") {
                 value = "'" + value + "'";
             }
             arr.push(key + "=" + value);
         }
     }
+    // translate array of strings to a cs string // 
     return arr.toString();
 }
 
+// obj for all mysql statement functions //
 var orm = {
     all: function (tableInput, cb) {
         var queryString = "SELECT * FROM " + tableInput + ";";
