@@ -23,6 +23,7 @@
     <div class="row">
       <h1>Eat-Da-Burger!</h1>
     </div>
+
     <section id="devourSection" style="display:block;">
       <div class="row">
         <div class="col-sm-5">
@@ -42,32 +43,35 @@
       </div>
     </section>
 
-    <div class="row">
-      <form class="create-form">
-      <div class="form-group">
-        <label for="ca"></label>
-        <input type="text" id="ca" name="name" />
-      </div>
-    </div>
-
+    <section id="form">
       <div class="row">
-        <div class="form-group">
-          <label for="devoured"></label><br />
-          <input type="radio" name="devoured" value="0" checked /> Want to devour<br />
-          <input type="radio" name="devoured" value="1" /> Devoured
+        <h5>Enter a burger you want to eat or track a burger you have already devoured.</h5>
+      </div>
+  
+      <div class="row">
+        <form class="create-form">
+          <div class="form-group">
+            <label for="ca"></label>
+            <input type="text" id="ca" name="name" />
+          </div>
+        <!-- </form> -->
+      </div>
+  
+        <div class="row">
+          <div class="form-group">
+            <label for="devoured"></label><br />
+            <input type="radio" name="devoured" value="0" checked /> Want to devour<br />
+            <input type="radio" name="devoured" value="1" /> Devoured
+          </div>
         </div>
-      </div>
+  
+        <div class="row">
+          <button class="btn" type="submit" id="burgerSubmitBtn">Submit</button>
+        </div>
+      </form>
+    </section>
 
-      <div class="row">
-        <button class="btn" type="submit" id="burgerSubmitBtn">Submit</button>
-      </div>
-      <div class="row">
-        <p>Enter a burger you want to eat. Then click the "submit" button.</p>
-    </div>
-    </form>
   </div>
-
-
 
   <footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

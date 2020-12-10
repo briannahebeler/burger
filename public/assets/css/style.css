@@ -3,8 +3,9 @@ body {
   color: black;
 }
 
-h1 {
-  color:rgb(157, 45, 45);
+h1,
+h5 {
+  color:#d9534f;
 }
 
 img{
@@ -13,6 +14,8 @@ img{
 
 #burgerSubmitBtn {
   margin:15px;
+  background-color: #d9534f;
+  color: white; 
 }
 
 .container {
@@ -29,6 +32,11 @@ li {
   margin: 5px;
   list-style-type: none;
   background-color: rgb(245, 216, 184);
+}
+
+.delete-burger,
+.change-devour{
+  margin:5px;
 }
 
 .label {
