@@ -10,8 +10,7 @@ $(function() {
     for (var i = 0; i < len; i++) {
       var new_elem =
         "<li>" +
-        burgers[i].id + 
-        ". "+burgers[i].name +
+        burgers[i].name +
         "<button class='change-devour' data-id='" +
         burgers[i].id +
         "' data-newdevour='" +
