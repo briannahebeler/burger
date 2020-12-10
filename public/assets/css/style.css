@@ -26,7 +26,9 @@ img{
 
 li {
   padding: 5px;
-  margin: 5px;;
+  margin: 5px;
+  list-style-type: none;
+  background-color: rgb(245, 216, 184);
 }
 
 .label {
@@ -36,7 +38,6 @@ li {
 .create-update-form {
   padding: 5px;
   margin: 5px;
-  background: aqua;
 }
 
 .form-group {
