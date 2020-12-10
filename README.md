@@ -1,14 +1,13 @@
 # Eat-Da-Burger!
 
-## Description (update)
-- Burger Logger
-- Restaurant app that lets users input the names of burgers they'd like to eat
-- Whenever a user submits a burger's name, your app will display the burger on the left side of the page -- waiting to be devoured
-- Each burger in the waiting area also has a Devour it! button. When the user clicks it, the burger will move to the right side of the page
-- Your app will store every burger in a database, whether devoured or not
+## Description
+A restaurant application that allows users to log the names of burgers they would like to eat and track burgers they have already devoured. 
 
-## Instructions (delete after)
-* Make sure to add a link to your updated portfolio in the comments section of your homework so the TAs can easily ensure you completed this step when they are grading the assignment.
+Whenever a user submits a burger's name, the application will display the burger on the left side of the page, waiting to be devoured. Each burger in the waiting area also has a "Devour it!" button. When the user clicks it, the burger will be moved to the right side of the page with all the "devoured" burgers.
+
+Added the wrong burger or pressed the devour button prematurely? Users are able to delete any burger from either list or revert a devoured burger back to the waiting area. 
+
+This application is deployed with Heroku using the Jaws database. This burger logger stores all burgers in the burger database, whether devoured or not!
 
 ## Table of Contents  
 * [Screenshot](#screenshot)
